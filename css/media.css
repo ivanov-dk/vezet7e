@@ -1,0 +1,88 @@
+@media screen and (max-width: 1200px) {
+	.how__block:nth-child(2) {left: 150px}
+	.how__block:nth-child(3) {left: 310px}
+	.how__block:nth-child(4) {left: 500px}
+	.how__block:nth-child(5) {left: 680px}
+	.main__bg {right: 80px}
+	.main {width: 800px; padding-left: 30px}
+	.main__wrap {width: 992px}
+	.main__bg {opacity: 0.6}
+	.needed__item {padding: 108px 5px 0 !important}
+	.question__title:before {left: 20px}
+}
+
+@media screen and (max-width: 992px) {
+	.menu__item:not(:last-child) {margin-right: 6px}
+	.main {width: 700px}
+	.main__wrap {width: 680px}
+	.main__bg {display: none}
+	.needed {justify-content: center; flex-wrap: wrap}
+	.needed__item {max-width: 250px !important; margin-top: 30px;}
+	.how__block:nth-child(1):before, .how__block:nth-child(3):before, .how__block:nth-child(5):before {display: none}
+	.how__block:nth-child(2) {left: 350px; top: 0;}
+	.how__block:nth-child(3) {left: 0px; top: 250px}
+	.how__block:nth-child(4) {left: 350px; top: 250px}
+	.how__block:nth-child(5) {left: 200px; top: 460px}
+	.how-work {height: 900px}
+	.prices-bg {display: none}
+	.price, .price__title {text-align: center !important}
+	.price__text {margin: 0 auto 50px}
+	.who__item {margin-left: 80px}
+	.question-bg {display: none}
+	.question__title:before {left: 100px}
+	.footer__btn span {width: 215px}
+	.foot__title_soc {text-align: left !important}
+	.foot__list_soc {justify-content: flex-start}
+	.foot {position: relative}
+	.mult {position: absolute; top: 60px; right: -100px}
+}
+
+@media screen and (max-width: 768px) {
+	.main {width: 500px}
+	.main__wrap {width: 475px}
+	h1 {font-size: 30px}
+	.how__block:nth-child(2), .how__block:nth-child(4) {left: 230px}
+	.how__block:nth-child(5) {left: 90px; top: 470px}
+	.question__title:before {display: none}
+	.footer__btn {margin-top: 0; margin-bottom: 40px}
+	.mult {right: -120px}
+}
+
+@media screen and (max-width: 576px) {
+	html, body {overflow-x: hidden}
+	.main {width: 300px}
+	.main__wrap {width: 320px; padding-top: 40px}
+	.main__text {margin: 30px 0 25px; max-width: 270px;}
+	.need-title {margin-bottom: 40px}
+	.how__block:nth-child(1) {position: absolute; left: 50%; margin-left: -160px}
+	.how__block:nth-child(2) {left: 50%; top: 250px; margin-left: -160px}
+	.how__block:nth-child(3) {left: 50%; top: 450px; margin-left: -160px}
+	.how__block:nth-child(4) {left: 50%; top: 650px; margin-left: -160px}
+	.how__block:nth-child(5) {left: 50%; top: 840px; margin-left: -160px}
+	.how-work {height: 1300px}
+	.price__title {margin-top: 60px}
+	.mult {right: 100px}
+	.main-right, .main-left {display: none}
+}
+
+@media screen and (max-width: 460px) {
+	.container {width: 300px}
+	.logo__text {font-size: 12px}
+	.main__wrap {width: 320px; padding-top: 40px}
+	.main {padding-left: 0}
+	.mult {right: 105px; top: 150px}
+	h2 {font-size: 28px}
+	.how-title {margin-bottom: 70px}
+	.how-work {height: 1250px}
+	.price__title {margin: 30px 0 20px}
+	.price__text {margin-bottom: 30px}
+	.who__item {margin-left: 60px}
+	.quest {padding: 60px 0 50px}
+	.question__text {margin: 50px auto 30px}
+	.question__ask {font-size: 24px}
+	.box-modal {padding: 45px 25px 0}
+	.box-modal-text {margin-bottom: 30px}
+	.prices {height: 600px}
+	.foot__title_soc {margin-left: 20px}
+	.foot_soc {margin-left: 50px}
+}
